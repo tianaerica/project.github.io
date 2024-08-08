@@ -2,7 +2,7 @@
     <header>
         <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title>This is My University Website</title> 
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="image/favicon.ico" type="image/svg+xml">
     </header>
     <body>
@@ -54,21 +54,29 @@
                         </p>
                 </div>
                </div>
-               <div class="Contact-Form">
-                <h1>Get in touch with us. We would love to hear from you.</h1>
-                <div class="input-fields">
-                    <input type="text" class="input" placeholder="Your Name *">
-                    <input type="text" class="input" placeholder="Your Emaill *">
-                    <input type="text" class="input" placeholder="Your Phone *">
-                    
-                </div>
-                <div class="msg">
-                    <textarea placeholder="Message *"></textarea>
-                    
-                </div>
-                <div>
-                    <button> Send message</button>
-                </div>
+               <div>
+                <form>
+                    <label for="firstname">Name: </label>
+                    <br>
+                    <input type="text" name="firstname"  required>
+                    <br>
+                    <label for="email">Email: </label>
+                    <br>
+                    <input type="email" name="email"  required>
+                    <br>
+                    <label for="Subject">Subject: </label>
+                    <br>
+                    <textarea name="subject" id="subject" ></textarea>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="4"></textarea>
+                    <br>
+                    <input type="submit" name="submit"  required>
+                    <br>
+                </form>
+
+               </div>
                     
                 
             </div>

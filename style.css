@@ -44,7 +44,7 @@ nav img{
     
 }
 .home-img{
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("../img/Admin-Block.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("img/Admin-Block.jpg");
     padding: 150px 80px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,106 +126,3 @@ hr{
     width: 50%;
 
   }
-
-.Contact-Form{
-    width:50%;
-    margin:0 auto;
-    text-align:center;
-}
-.Contact-Form h2{
-    color:#ffffff;
-    text-transform:capitalize;
-    margin-bottom:20px;
-    font-size:30px;
-}
-.Contact-Form p{
-    color:#9999B9;
-    margin-bottom:50px;
-}
-.input-fields{
-    width:100%;
-    float:left;
-    overflow:hidden;
-    margin-right:30px;
-    
-   
-}
-.input-fields input{
-     width:100%;
-     padding:15px 20px;
-     margin-bottom:20px;
-     border:0;
-     border-radius:3px ;
-     border: solid 1px;
- }
-.msg{
-    width:100%;
-    overflow:hidden;
-    margin-top: 70px;
-    
-}
-.msg textarea{
-    width:100%;
-     padding:10px 20px;
-     margin-bottom:20px;
-     height:160px;
-     border:0;
-     border-radius:3px ;
-     resize:none;
-     border: solid 1px;
-}
-.Contact-Form button{
-    padding:15px 20px;
-    color:#ffffff;
-    text-transform:uppercase;
-    border:1px solid green;
-    background:blue;
-    cursor:pointer;
-    border-radius:3px;
-    margin-right: 40px;
-    margin-top: 15px;
-}
- .Contact-Form button:hover{
-   border:1px solid #0000ff;
-   background:none;
-   color: #0000ff;
- }
-.details{
-    width: 300px;
-    height:150px;
-    color: black;
-    background:white;
-    padding:10px;
-    float:left;
-    overflow:hidden;
-    margin-right:160px;
-    margin-top:50px;
-    border-radius:3px;
-    margin-bottom:50px;
-}
-.details:last-child{
-   margin-right:0;
-}
-.details h3{
-    padding-top: 60px;
-    font-size:16px;
-    color:black;
-    font-style:normal;
-    margin-left:10px;
-    margin-bottom:20px;
-    text-transform:uppercase;
-    text-align:left;
-    
-}
-.details p{
-   font-size:13px;
-   font-family: Arial;
-    color:black;
-    font-style:normal;
-    margin:0;
-    padding:0;
-    text-align:left;
-    text-transform:capitalize;
-    margin-left:10px;
-    margin-bottom:2px;
-}
